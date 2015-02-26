@@ -4,11 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDriveApiExplorer", "OneDriveApiExplorer\OneDriveApiExplorer.csproj", "{28D25E38-167F-4F2E-A9EA-44F3822FBE23}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7CFA73EF-485B-44C1-BE7E-18391750C725} = {7CFA73EF-485B-44C1-BE7E-18391750C725}
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDriveSDK", "OneDriveSDK\OneDriveSDK.csproj", "{7CFA73EF-485B-44C1-BE7E-18391750C725}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDriveSDK", "OneDriveSDK\OneDriveSDK.csproj", "{76D09346-E748-48F8-B334-924567658161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +17,10 @@ Global
 		{28D25E38-167F-4F2E-A9EA-44F3822FBE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D25E38-167F-4F2E-A9EA-44F3822FBE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D25E38-167F-4F2E-A9EA-44F3822FBE23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CFA73EF-485B-44C1-BE7E-18391750C725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D09346-E748-48F8-B334-924567658161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D09346-E748-48F8-B334-924567658161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D09346-E748-48F8-B334-924567658161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D09346-E748-48F8-B334-924567658161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
