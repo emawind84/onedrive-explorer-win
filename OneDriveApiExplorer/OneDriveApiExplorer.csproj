@@ -205,13 +205,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OneDriveSDK\OneDriveSDK.csproj">
-      <Project>{7CFA73EF-485B-44C1-BE7E-18391750C725}</Project>
-      <Name>OneDriveSDK</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <ProjectReference Include="..\OneDriveSDK\OneDriveSDK.csproj">
+      <Project>{7cfa73ef-485b-44c1-be7e-18391750c725}</Project>
+      <Name>OneDriveSDK</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
